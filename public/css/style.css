@@ -1,0 +1,459 @@
+/*============================== General ==========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.nunito-font {
+    font-family: 'Nunito', sans-serif;
+}
+
+.dancing-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+.capitalize {
+    text-transform:capitalize;
+}
+
+/*============================== Welcome ==========================*/
+
+.welcome-container {
+    background: url('/images/welcome.png') no-repeat center;
+    background-size: cover;
+    height: 300px;
+}
+
+.welcome-background {
+    background: url('/images/welcome.png') no-repeat center;
+    background-size: contain;
+    /* height: 100%; */
+}
+@media screen and (min-width: 768px) {
+
+    .height-100vh {
+        height: 100vh;
+    }
+    
+.p-a {
+    position:absolute;
+}
+}
+
+
+/*============================== login Signup ==========================*/
+
+.form-control {
+    border-radius: 50px;
+    padding-left: 45px;
+}
+
+.login-btn {
+    border-radius: 50px;
+}
+
+.icon-name {
+    background-image: url('/images/profile.png');
+    background-repeat: no-repeat;
+    background-position: 4% center;
+}
+
+.icon-lock {
+    background-image: url('/images/lock.png');
+    background-repeat: no-repeat;
+    background-position: 4% center;
+}
+
+.icon-email {
+    background-image: url('/images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: 4% center;
+}
+
+.icon-email-disabled {
+    background-image: url('/images/email-disabled.png');
+    background-repeat: no-repeat;
+    background-position: 4% center;
+}
+
+.login-signup-container {
+    background: url('/images/Mask.png') no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1200px) {
+    .login-signup-container {
+        background: url('/images/Mask_login_signup.png') no-repeat center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+.btn-custom {
+    background-color: #2A9DF4;
+    color: white;
+}
+
+.text-custom {
+    color: #2A9DF4;
+}
+
+.btn-custom:hover {
+    background-color: #078df3;
+    color: white;
+}
+
+.border-custom {
+    border-color: #2A9DF4;
+}
+
+.border-custom-disabled {
+    border-color: #a3a3a3;
+}
+
+img.position-absolute {
+    top: 40px;
+    left: 50px;
+    z-index: 9999;
+}
+
+.position {
+    left: 0px;
+    top: 0px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.login-signup-content {
+    z-index: 99;
+}
+
+.bg-custom {
+    background-color: #FF0077;
+}
+
+.img-wrapper {
+    height: 100vh;
+}
+
+
+/*======================  Dashboard ================================================*/
+
+.btn-white {
+    background-color:white;
+}
+
+.btn-white:hover {
+    background-color:#FF0077;
+    color:white;
+}
+
+.side-menu {
+    background: url('/images/side-menu.png') no-repeat center;
+    background-size: cover;
+    width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pl-4 {
+    padding-left: 35px;
+}
+
+.pl-5 {
+    padding-left: 40px;
+}
+
+.px-6 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.display {
+    display: block;
+}
+.memory-btn {
+    width:180px;
+    margin-top:20px;
+}
+
+.diary-btn{
+    width:180px;
+    margin-top:20px
+}
+
+@media screen and (min-width: 768px) {
+    .btn-h1 {
+        font-size: 1.5rem;
+    }
+
+    .memory-btn {
+        width:250px;
+    }
+
+    .diary-btn{
+        width:250px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .btn-h1 {
+        font-size: 1.5rem;
+    }
+
+    .memory-btn {
+        width:250px;
+    }
+
+    .diary-btn{
+        width:250px;
+    }
+}
+
+
+@media screen and (min-width: 401px) {
+    .display {
+        display:flex;
+    }
+
+    .memory-btn{
+        margin-right: .5rem;
+    }
+
+    .diary-btn{
+        margin-left: .5rem;
+    }
+    
+}
+
+.left-menu-container {
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.profile-btn {
+    width:100%;
+    margin-top:10px;
+    background: url('/images/edit.png') no-repeat #FF0077;
+    background-position: 85% center;
+    background-size: 8%;
+    color: white;
+}
+
+.profile-btn:hover {
+    background-color:#ffffff;
+    color: #FF0077;
+}
+
+.width-100 {
+    display: block;
+    width:100%;
+}
+
+.dashboard-container {
+    background: url('/images/Mask_dashboard.png') no-repeat center;
+    background-size: cover;
+    height: 350px;
+}
+
+.text-pink {
+    color: #FF0077;
+}
+
+.text-blue {
+    color: #1223C2;
+}
+
+.btn-blue {
+    background-color: #1223C2;
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #142199;
+    color: white;
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}
+
+.mt-8 {
+    margin-top: 100px;
+}
+
+.btn-pink {
+    background: url('/images/add.png') no-repeat #FF0077;
+    background-position: 7% center;
+    background-size: 12%;
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: #ff3493;
+    color: #ffffff;
+}
+
+.btn-sky-blue {
+    background: url('/images/book.png') no-repeat #2A9DF4;
+    background-position: 7% center;
+    background-size: 12%;
+    color: white;
+}
+
+.btn-sky-blue:hover {
+    background-color: #207ec5;
+    color: #ffffff;
+}
+
+.memory {
+    background-size: cover;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.memory-1 {
+    background: url('/images/memory-1.png') no-repeat center;
+}
+.memory-2 {
+    background: url('/images/memory-2.png') no-repeat center;
+}
+.memory-3 {
+    background: url('/images/memory-3.png') no-repeat center;
+}
+
+
+@media screen and (min-width: 768px){
+    .memory {
+        width: 45%;
+    }
+}
+
+/* ==================================== Gift notifications =======================================*/
+
+.notifications {
+    background: url('/images/notifications.png') no-repeat center white;
+    background-size: cover;
+    width: 450px;
+}
+
+
+/* ==================================== Edit Profile =======================================*/
+
+
+.edit-profile {
+    background: url('/images/notifications.png') no-repeat center white;
+    background-size: cover;
+    width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-edit-profile {
+    background-color: #FF0077;
+    color: white;
+}
+
+.btn-edit-profile:hover {
+    background-color: #d60064;
+    color: white;
+}
+
+
+/* ==================================== new diary =======================================*/
+
+
+.upload {
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+/* ==================================== new diary =======================================*/
+
+.icon-event {
+    background: url('/images/event.png') no-repeat 4% center;
+}
+
+.icon-calendar {
+    background: url('/images/calendar.png') no-repeat 4% center;
+}
+
+.border-pink {
+    border-color: #FF0077;
+}
+
+textarea.textarea {
+    border-radius: 25px;
+}
+
+.memories-container {
+    background: url('/images/memories_1.png') no-repeat;
+    background-size: cover;
+}
+
+.memories-background {
+    background: url('/images/memories.png') no-repeat;
+    background-size: contain;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.pt-110 {
+    padding-top: 110px
+}
+
+.alert-green {
+    background-color: seagreen;
+    color:white;
+}
+
+
+/* ==================================== Subscription Plan =======================================*/
+
+
+.subscription {
+    background: url('/images/subscription-plan.png') no-repeat center;
+    background-size: cover;
+}
+
+.subscription-img {
+    background: url('/images/subscription-img.png') no-repeat center;
+    background-size: contain;
+    height: 350px;
+    
+}
+
+@media screen and (min-width: 768px){
+    .subscription-img {
+        height: 420px;
+        margin-top:50px
+    }
+}
+
+.text-dark-blue {
+    color: #010847;
+}
+
+.border-radius-25 {
+    border-radius: 25px;
+}
+
+.px-7 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+  .owl-wrapper{
+    margin: 0 auto;
+    /* display: flex !important;
+    align-items: center;
+    justify-content: center; */
+}
